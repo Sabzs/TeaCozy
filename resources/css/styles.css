@@ -56,7 +56,7 @@ nav span {
 }
 
 /*container 1 section*/
-.container-1 {
+#container-1 {
   display: flex;
   background-image: url("../images/mission-background.jpg");
   background-repeat: no-repeat;
@@ -71,7 +71,6 @@ nav span {
   align-items: center;
   flex-basis: 100%;
 }
-
 .mission-cont {
   display: flex;
   flex-direction: column;
@@ -80,4 +79,67 @@ nav span {
   width: 1200px;
   height: 100px;
   background-color: black;
+}
+
+/* above container 2 section*/
+#tea {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+h2 {
+  padding-bottom: 15px;
+}
+h4 {
+  padding-bottom: 10px;
+}
+.featured-tea h4 {
+  padding-top: 10px;
+}
+
+/*container 2 section*/
+.fall {
+  background-image: url("../images/berryblitz.jpg");
+}
+.spiced {
+  background-image: url("../images/spiced-rum.jpg");
+}
+.seasonal {
+  background-image: url("../images/donut.jpg");
+}
+.myrtle {
+  background-image: url("../images/myrtle-ave.jpg");
+}
+.bedford {
+  background-image: url("../images/bedford-bizarre.jpg");
+}
+
+#container-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.featured-tea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.fall, .spiced,
+.seasonal, .myrtle,
+.bedford {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: auto;
 }
