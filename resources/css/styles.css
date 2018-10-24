@@ -1,4 +1,4 @@
-* {
+pwd* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -126,10 +126,11 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 1000px;
   margin: 0 auto;
-  justify-content: space-around;
+  border-bottom:
 }
 .fall, .spiced,
 .seasonal, .myrtle,
@@ -142,4 +143,52 @@ h4 {
   background-attachment: scroll;
   background-position: center;
   background-size: auto;
+}
+
+/*container 3 section*/
+#container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  flex-direction: column;
+
+  background-image: url("../images/locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+#container-3 h2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+.addresses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+.downtown,
+.east-bayside,
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  opacity: 1px;
+  border: 1px solid red;
+}
+
+
+.container-4 {
+  height: 200px;
 }
